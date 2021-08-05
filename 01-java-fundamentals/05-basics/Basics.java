@@ -11,8 +11,8 @@ public class Basics {
         // findMax(arr1);
         // oddArray();
         // printAvg(arr);
-        // grThanY(arr);
-        System.out.println(sqrNums(arr));
+        grThanY(arr);
+        // System.out.println(sqrNums(arr));
 
 
     }
@@ -82,7 +82,7 @@ public class Basics {
         System.out.println(gr);        
     }
 
-    public static sqrNums(int[] u)
+    // public static sqrNums(int[] u);
 
         
 }
