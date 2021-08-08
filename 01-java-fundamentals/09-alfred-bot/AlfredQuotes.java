@@ -1,5 +1,5 @@
 import java.util.Date;
-import java.sql.Date;
+// import java.sql.Date;
 
 public class AlfredQuotes {
 
@@ -22,7 +22,6 @@ public class AlfredQuotes {
         if(phrase.indexOf("Alexis") > -1) {
             return "Alexis";
         }
-        // test new
 
         if (phrase.indexOf("Alfred") > -1) {
             return "Alfred";
