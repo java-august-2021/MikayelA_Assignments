@@ -22,7 +22,7 @@ public class AlfredQuotes {
         if(phrase.indexOf("Alexis") > -1) {
             return "Alexis";
         }
-        // test
+        // test new
 
         if (phrase.indexOf("Alfred") > -1) {
             return "Alfred";
