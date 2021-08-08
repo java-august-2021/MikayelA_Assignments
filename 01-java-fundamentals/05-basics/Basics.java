@@ -22,7 +22,6 @@ public class Basics {
         }
         return sum;
     }
-// test
     public void iterateArr(int[] x) {
         for (int i=0; i<x.length; i++) {
             System.out.println(x[i]);

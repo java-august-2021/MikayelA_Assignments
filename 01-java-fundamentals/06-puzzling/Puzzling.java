@@ -1,12 +1,17 @@
+import java.security.AlgorithmParameterGeneratorSpi;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.List;
+
+
+
 
 public class Puzzling {
     
     public ArrayList tenRolls() {
         ArrayList<Integer> rand10 = new ArrayList<Integer>();
         Random rnd = new Random();
-        for (int i = 1; i<=10; i++) {
+        for (int i = 0; i<=10; i++) {
             rand10.add(rnd.nextInt(20));
         }
         return rand10;
@@ -14,10 +19,17 @@ public class Puzzling {
 
     public char rndLetter() {
         Random rnd = new Random();
+        // Need help with this version of solution.
+        // ArrayList<Character> alpha = new ArrayList<Character>();
+        // for (char i = 'a'; i<='z'; i++){
+        //     alpha.add(i);
+        //         return alpha;
+        // }
+
         char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
         char letter = alphabet[rnd.nextInt(26)];
         return letter;
-        }
+    }
 
     public String password(){
     String pswrd = "";
@@ -34,5 +46,4 @@ public class Puzzling {
         }
         return newPassword;
     }
-
 }
