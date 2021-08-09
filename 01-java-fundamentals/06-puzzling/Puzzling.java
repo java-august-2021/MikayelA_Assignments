@@ -4,15 +4,13 @@ import java.util.Random;
 import java.util.List;
 
 
-
-
 public class Puzzling {
     
     public ArrayList tenRolls() {
         ArrayList<Integer> rand10 = new ArrayList<Integer>();
         Random rnd = new Random();
-        for (int i = 0; i<=10; i++) {
-            rand10.add(rnd.nextInt(20));
+        for (int i = 0; i<=9; i++) {
+            rand10.add(rnd.nextInt(21));
         }
         return rand10;
     }
