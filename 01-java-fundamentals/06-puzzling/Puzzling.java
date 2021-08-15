@@ -18,14 +18,15 @@ public class Puzzling {
     public char rndLetter() {
         Random rnd = new Random();
         // Need help with this version of solution.
-        // ArrayList<Character> alpha = new ArrayList<Character>();
-        // for (char i = 'a'; i<='z'; i++){
-        //     alpha.add(i);
-        //         return alpha;
-        // }
+        ArrayList<Character> alpha = new ArrayList<Character>();
+        for (char i = 'a'; i<='z'; i++){
+            alpha.add(i);
 
-        char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-        char letter = alphabet[rnd.nextInt(26)];
+        }
+        System.out.println(alpha);
+
+        // char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+        char letter = alpha.get(rnd.nextInt(26));
         return letter;
     }
 
@@ -44,4 +45,5 @@ public class Puzzling {
         }
         return newPassword;
     }
+
 }
